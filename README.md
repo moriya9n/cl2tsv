@@ -24,10 +24,10 @@ docker image
 docker run -i --rm moriya9n/cl2tsv
 ```
 
-example
+example (how to observe 404 accessed by googlebot)
 
 ```
-zcat  -f $(ls -tr /var/log/nginx/access.log*) | docker run -i --rm moriya9n/cl2tsv | grep -i googlebot | cut -f 5,6 | grep 404
+zcat  -f $(ls -tr /var/log/nginx/access.log*) | docker run -i --rm moriya9n/cl2tsv | grep -i googlebot | cut -f 4,5,6 | grep 404
 ```
 
 ## related article
