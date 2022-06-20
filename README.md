@@ -16,4 +16,6 @@ cl2tsv.py filename...
 filename can be plain file or .gz file.
 files with .gz extension are unzipped internally then converted.
 
+## related article
 
+[common log format to tsv](https://kizamiudn.xyz/linux/common-log-format-to-tsv/)
