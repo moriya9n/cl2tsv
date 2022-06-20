@@ -13,6 +13,7 @@ convert stdin
 cl2tsv.py filename...
 ```
 
-filename can be plain file or .gz file
-filename ends with .gz is unzipped then converted
+filename can be plain file or .gz file.
+files with .gz extension are unzipped internally then converted.
+
 
